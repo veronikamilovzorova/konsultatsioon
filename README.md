@@ -87,6 +87,7 @@ Failid:
 - `sun.mp4`: taustavideo
 - `README.md`: projekti README fail
 
+![Registratsiooni leht](suni.PNG)
 
 
 
