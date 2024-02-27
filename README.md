@@ -2,7 +2,7 @@
 
 See dokumentatsioon kirjeldab `kasutaja.php` skripti funktsionaalsust.
 
-![Pildi kirjeldus](file:///C:/Users/opilane/source/repos/loik.PNG)
+
 
 ## Kirjeldus
 
@@ -37,6 +37,28 @@ See funktsioon trükib HTML-tabeli antud andmejada põhjal.
 2. Paigutage vajalikud failid (`navi.php`, `conf.php`, `kasutaja.css`) vastavatesse kohtadesse.
 3. Konfigureerige andmebaasiühendus `conf.php` failis.
 4. Pääsege skriptile juurde veebiserveri kaudu koos PHP-toega.
+
+## Kasutajate leht pilt
+![Kasutaja leht](loik.PNG)
+
+# Registreerimisvormi dokumentatsioon
+
+See dokument sisaldab PHP-ga loodud registreerimisvormi kirjeldust ja näiteid.
+
+## Paigaldus
+
+1. Laadige PHP-failid oma veebiserverisse.
+2. Looge andmebaas koos vajalike tabelitega
+3. Muutke ühenduse konfiguratsioonifailis (conf.php) andmebaasi ühenduse seadeid vastavalt teie keskkonnale.
+
+## Juhendid
+
+1. Avage registreerimisvorm veebibrauseris.
+2. Valige päev, õpetaja nimi, tund ja periood vastavalt vajadusele.
+3. Klõpsake nuppu "Registreeri".
+4. Kuvatakse teade edukast registreerumisest.
+
+
 
 ## Näited
 
@@ -120,6 +142,8 @@ if ($selectedTeacher || $selectedPeriod) {
 }
 
 ?>
+
+
 
 
 
