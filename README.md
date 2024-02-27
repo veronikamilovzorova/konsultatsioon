@@ -58,6 +58,37 @@ See dokument sisaldab PHP-ga loodud registreerimisvormi kirjeldust ja näiteid.
 3. Klõpsake nuppu "Registreeri".
 4. Kuvatakse teade edukast registreerumisest.
 
+![KOnsulatsiooni leht](pere.PNG)
+
+# Registreerimisevormi dokumentatsioon
+
+Registreerimisevorm võimaldab kasutajatel luua uue konto saidil. See võimaldab neil sisestada kasutajanime ja parooli ning seejärel salvestada need andmebaasi.
+
+## PHP-skripti selgitus
+
+PHP-skript vastutab registreerimisvormi töötlemise eest. Siin on mõned olulised punktid:
+
+- Kontrollitakse, kas POST-päringuga on saadetud kasutajanime ja parooli andmed.
+- Kui andmed on saadetud, puhastatakse need ja salvestatakse andmebaasi pärast parooli soolamist.
+- Kui registreerimine on edukas, kuvatakse sõnum "Registreerimine õnnestus" ja kasutaja sessioon muudetakse mitteadministraatoriks (onAdmin = 0).
+- Kui registreerimine ebaõnnestub, kuvatakse vastav sõnum.
+
+## HTML-vorm
+
+Registreerimisevorm on loodud HTML-is ja see sisaldab välju kasutajanime ja parooli sisestamiseks. Vorm on loodud POST-meetodiga, mis saadab kasutaja sisestatud andmed PHP-skriptile töötlemiseks.
+
+## JavaScript
+
+JavaScript funktsioonid avavad ja sulgevad registreerimise modaalakna ning registreerimispaneeli.
+
+Failid:
+- `conf.php`: konfiguratsioonifail
+- `logstylee.css`: stiilide fail
+- `sun.mp4`: taustavideo
+- `README.md`: projekti README fail
+
+
+
 
 
 ## Näited
