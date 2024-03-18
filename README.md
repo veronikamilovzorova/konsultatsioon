@@ -3,7 +3,20 @@
 See dokumentatsioon kirjeldab `kasutaja.php` skripti funktsionaalsust.
 
 
+## Sisukord
 
+- [Kasutaja Dokumentatsioon](#kasutaja-dokumentatsioon)
+  - [Kirjeldus](#kirjeldus)
+  - [Kasutamine](#kasutamine)
+  - [Funktsioonid](#funktsioonid)
+  - [Sõltuvused](#sõltuvused)
+  - [Paigaldamine](#paigaldamine)
+  - [Kasutajate leht pilt](#kasutajate-leht-pilt)
+- [Registreerimisvormi dokumentatsioon](#registreerimisvormi-dokumentatsioon)
+  - [Paigaldus](#paigaldus-1)
+  - [Juhendid](#juhendid)
+  - [Näited](#näited)
+- [Näited](#näited-1)
 ## Kirjeldus
 
 See PHP skript toob ja kuvab andmeid andmebaasist konsultatsioonide kohta. See võimaldab kasutajatel filtreerida konsultatsioone õpetaja nime ja perioodi järgi.
