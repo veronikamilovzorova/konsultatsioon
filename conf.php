@@ -1,7 +1,8 @@
 <?php
-$kasutaja='opilane';
-$serverinimi='localhost';
-$parool='123';
-$andmebaas='veronika';
-$yhendus=new mysqli($serverinimi, $kasutaja, $parool, $andmebaas);
+$kasutaja='d123175_luca';
+$sererinimi='d123175.mysql.zonevs.eu';
+$parool='pentagonanetu27';
+$andmebaas='d123175_andmebaas';
+$yhendus=new mysqli($sererinimi,$kasutaja,$parool,$andmebaas);
 $yhendus->set_charset('UTF8');
+?>

@@ -5,7 +5,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px; /* Увеличьте размер заполнения по вашему желанию */
-    background-color: rgba(128, 116, 106, 0.62); /* Прозрачный желтый цвет (R, G, B, Alpha) */
+    background-color: yellow; /* Прозрачный желтый цвет (R, G, B, Alpha) */
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
