@@ -104,10 +104,10 @@ Failid:
 
 # ülesanne
 
-1. lisa uued õpetajad
+1. lisa uued õpetajad konsultatsiooni lehte
 2. mudda css-is taust (background)
-4. lisa interaktiivseid elemente
-5. lisage uusi stiile
+4. lisa interaktiivseid elemente (näiteks button, label)
+5. lisage uue stiili (fondid, värvid, teksti suurus)
 6. Lisage postituste muutmise võimalus
 
 
