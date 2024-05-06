@@ -188,6 +188,14 @@ if ($selectedTeacher || $selectedPeriod) {
 
 ?>
 
+# ülesanne
+
+1. lisa uued õpetajad
+2. mudda css-is taust (background)
+4. lisa interaktiivseid elemente
+5. lisage uusi stiile
+6. Lisage postituste muutmise võimalus
+
 
 
 
