@@ -101,7 +101,34 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
         </ul>
     </div>
 </div>
-
+<!-- Lisatud HTML ja PHP kood hinnangute ja kommentaaride jaoks -->
+<div class="category">
+    <a href="#" class="menu common-link">Hinnang ja kommentaar</a>
+    <div class="dropdown">
+        <form method="post" action="rate_comment.php">
+            <input type="hidden" name="type" value="teacher"> <!-- Tüüp: õpetaja -->
+            <select name="name">
+                <?php foreach ($opetajad as $opetaja): ?>
+                    <option value="<?php echo $opetaja['opetajaNimi']; ?>"><?php echo $opetaja['opetajaNimi']; ?></option>
+                <?php endforeach; ?>
+            </select>
+            <input type="number" name="rating" min="1" max="5" placeholder="Hinnang (1-5)">
+            <textarea name="comment" placeholder="Kommentaar"></textarea>
+            <button type="submit">Saada</button>
+        </form>
+        <form method="post" action="rate_comment.php">
+            <input type="hidden" name="type" value="period"> <!-- Tüüp: periood -->
+            <select name="name">
+                <?php foreach ($periods as $period): ?>
+                    <option value="<?php echo $period['periood']; ?>"><?php echo $period['periood']; ?></option>
+                <?php endforeach; ?>
+            </select>
+            <input type="number" name="rating" min="1" max="5" placeholder="Hinnang (1-5)">
+            <textarea name="comment" placeholder="Kommentaar"></textarea>
+            <button type="submit">Saada</button>
+        </form>
+    </div>
+</div>
 <div class="category">
     <a href="#" class="menu common-link">Periood</a>
     <div class="dropdown">
