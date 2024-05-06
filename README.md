@@ -106,9 +106,10 @@ Failid:
 
 1. lisa uued õpetajad konsultatsiooni lehte
 2. mudda css-is taust (background)
+3. registratsiooni lehel muutke aknade suuruste
 4. lisa interaktiivseid elemente (näiteks button, label)
 5. lisage uue stiili (fondid, värvid, teksti suurus)
-6. Lisage postituste muutmise võimalus
+6. tehke üks juhuslik leht inglise keeles
 
 
 
