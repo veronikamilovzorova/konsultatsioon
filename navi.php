@@ -67,15 +67,15 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
 <header>KONSULTATSIOONI LEHT</header>
 
 <!-- Väljalogimise link -->
-<a href="logout.php" class="logout-link">Logi välja</a>
+<a href="logout.php" class="logout-link">log out</a>
 
 <!-- Kategooriad ja dropdown-menüüd -->
 <div class="category">
-    <a href="navi.php" class="menu common-link">Avaleht</a>
+    <a href="navi.php" class="menu common-link">mainpage</a>
 </div>
 
 <div class="category">
-    <a href="#" class="menu common-link">Õpetaja</a>
+    <a href="#" class="menu common-link">Teacher</a>
     <div class="dropdown">
         <ul>
             <?php foreach ($opetajad as $opetaja): ?>
@@ -103,7 +103,7 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
 </div>
 <!-- Lisatud HTML ja PHP kood hinnangute ja kommentaaride jaoks -->
 <div class="category">
-    <a href="#" class="menu common-link">Hinnang ja kommentaar</a>
+    <a href="#" class="menu common-link">grade and comment</a>
     <div class="dropdown">
         <form method="post" action="rate_comment.php">
             <input type="hidden" name="type" value="teacher"> <!-- Tüüp: õpetaja -->
@@ -114,7 +114,7 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
             </select>
             <input type="number" name="rating" min="1" max="5" placeholder="Hinnang (1-5)">
             <textarea name="comment" placeholder="Kommentaar"></textarea>
-            <button type="submit">Saada</button>
+            <button type="submit">send</button>
         </form>
         <form method="post" action="rate_comment.php">
             <input type="hidden" name="type" value="period"> <!-- Tüüp: periood -->
@@ -125,7 +125,7 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
             </select>
             <input type="number" name="rating" min="1" max="5" placeholder="Hinnang (1-5)">
             <textarea name="comment" placeholder="Kommentaar"></textarea>
-            <button type="submit">Saada</button>
+            <button type="submit">send</button>
         </form>
     </div>
 </div>
@@ -143,12 +143,12 @@ $periods = $result_perioodid->fetch_all(MYSQLI_ASSOC);
 
 <!-- Oluline info ala -->
 <div id="important">
-    <h1>OLULINE</h1>
+    <h1>Main</h1>
     <div id="important-text">
-        <p>Tere!
-            Õpetajate koolituste tõttu võivad konsultatsioonide ajad muutuda.
-            Palun jälgige võimalikke muudatusi.
-            Aitäh mõistva suhtumise eest!</p>
+        <p>Greetings!
+            Consultation times may change due to teacher training.
+            Please watch for possible changes.
+            Thank you for your understanding!</p>
     </div>
 </div>
 
