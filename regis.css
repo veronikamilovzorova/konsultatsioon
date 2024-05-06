@@ -4,7 +4,7 @@ body {
 }
 
 form {
-    max-width: 400px;
+    max-width: 300px;
     margin: 80px auto;
     padding: 20px;
     background-color: orange;
@@ -19,7 +19,7 @@ label {
 }
 
 select {
-    width: 100%;
+    width: 70%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -28,7 +28,7 @@ select {
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     background-color: lightgray;
     color: black;
@@ -54,7 +54,7 @@ input[type="submit"]:hover {
     border-radius: 5px;
     margin-top: 20px;
     color: black;
-    width: 300px;
+    width: 200px;
     position: absolute;
     top: 50%;
     left: 75%;
